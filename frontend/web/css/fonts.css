@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Cairo';
+    src: url('/fonts/Cairo/Cairo-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('/fonts/Cairo/Cairo-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, a, div, span, button, input, textarea {
+    font-family: 'Cairo', sans-serif !important;
+}
